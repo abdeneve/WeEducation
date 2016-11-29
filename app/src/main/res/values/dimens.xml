@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="elevation_toolbar">4dp</dimen>
+
+    <dimen name="small_list_avatar_padding">16.0dip</dimen>
+    <dimen name="list_row_padding">14.0dip</dimen>
+    <dimen name="small_list_row_height">68.0dip</dimen>
+    <dimen name="small_list_avatar_size">40.0dip</dimen>
+
+</resources>

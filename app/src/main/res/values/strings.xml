@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeEducation</string>
+    <string name="login">Autenticación</string>
+    <string name="enter">Entrar</string>
+    <string name="number_movil">Número de teléfono movil</string>
+    <string name="password">Contraseña</string>
+    <string name="enter_password">Introduzca su contraseña</string>
+    <string name="enter_phone">Introduzca su número de teléfono</string>
+    <string name="no_login">El número de teléfono o contraseña es incorrecto!</string>
+    <string name="ok_login">Autenticado</string>
+    <string name="enter_message">Escribir mensaje</string>
+    <string name="class_room">Asignaturas</string>
+    <string name="contact_avatar_image">Foto de Asignatura</string>
+    <string name="off_app">Salir</string>
+    <string name="about">Acerca de WeEducation</string>
+    <string name="fail_load_classroom">Falla al cargar las Asignaturas.</string>
+    <string name="email">Correo electrónico</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="40.0dip"
+    android:minHeight="30.0dip"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout_item_msg_center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/receive_text_bg">
+
+        <LinearLayout android:layout_gravity="center|left|top"
+            android:orientation="vertical"
+            android:id="@+id/name_in_group"
+            android:paddingLeft="8.0dip"
+            android:paddingTop="3.0dip"
+            android:paddingRight="8.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvNameInGroup"
+                android:textSize="12.5sp"
+                android:textColor="#ff000000"
+                android:paddingRight="4.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leny Lima Vidal"
+                android:lines="1"/>
+
+        </LinearLayout>
+
+        <FrameLayout android:layout_gravity="left"
+            android:paddingBottom="2.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.rockerhieu.emojicon.EmojiconTextView
+                android:id="@+id/tvEmojiconContent"
+                android:textSize="16sp"
+                android:textColor="#ff000000"
+                android:layout_gravity="left"
+                android:paddingLeft="8.0dip"
+                android:paddingTop="2.0dip"
+                android:paddingRight="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"/>
+
+            <LinearLayout
+                android:layout_gravity="bottom|center|right"
+                android:orientation="horizontal"
+                android:paddingLeft="6.0dip"
+                android:paddingRight="6.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView android:id="@+id/tvTime"
+                    android:paddingBottom="1.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20:04"
+                    style="@style/ConversationDate" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

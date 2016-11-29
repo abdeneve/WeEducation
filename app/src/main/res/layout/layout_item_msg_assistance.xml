@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout_center_start_assistance"/>
+
+    <LinearLayout android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/small_list_avatar_padding"
+        android:paddingRight="@dimen/list_row_padding"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="@dimen/small_list_row_height">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="@dimen/small_list_avatar_size"
+            android:layout_height="@dimen/small_list_avatar_size"
+            android:layout_marginRight="@dimen/small_list_avatar_padding"
+            android:src="@drawable/avatar_contact"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/contact_avatar_image" />
+
+        <LinearLayout android:orientation="vertical"
+            android:clipChildren="false"
+            android:layout_marginRight="50dp"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tvFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+
+
+
+        </LinearLayout>
+
+        <CheckBox android:id="@+id/checkboxAssistance"
+            android:layout_marginLeft="-50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:background="@drawable/divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip" />
+
+    <include layout="@layout/layout_center_end_assistance"/>
+
+</LinearLayout>

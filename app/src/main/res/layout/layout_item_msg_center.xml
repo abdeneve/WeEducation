@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/centeredLayout"
+    android:gravity="center|left"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="30.0dip"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/msgCenterContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <FrameLayout
+            android:id="@+id/msgBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/date_balloon">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:paddingBottom="1.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/ConversationDate"
+                android:text="23 DE AGOSTO DE 2015"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
